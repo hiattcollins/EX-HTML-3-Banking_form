@@ -11,6 +11,9 @@
 		</header>
 
 		<form>
+
+			<!-- Borrower information -->
+
 			<label for="firstName">First Name:</label><br>
 			<input type="text" name="firstName"  id="firstName">
 			<br>
@@ -32,6 +35,8 @@
 			<input type="text" name="occupation"  id="occupation">
 			<br>
 
+			<!-- Borrower's employer information -->
+
 			<label for="employer">Employer:</label><br>
 			<input type="text" name="employer"  id="employer">
 			<br>
@@ -40,6 +45,8 @@
 			<textarea name="employerAddress"  id="employerAddress" rows="5" cols="30"></textarea>
 			<br>
 			<br>
+
+			<!-- Loan type, amount, length, and special conditions -->
 
 			<label for="typeOfLoan">Type of Loan:</label><br>
 			<select name="typeOfLoan" id="typeOfLoan">
@@ -54,18 +61,12 @@
 			<br>
 			<br>
 
-			<!-- Loan length - radio button -->
 			<label for="loanLength">Length of Loan:</label><br>
 			<input type="radio" name="loanLength" value="5years" checked> 5 Years<br>
 			<input type="radio" name="loanLength" value="15years"> 15 Years<br>
 			<input type="radio" name="loanLength" value="30years"> 30 Years<br>
 			<br>
 
-			<!-- Special conditions -checkbox
-			I have a down payment
-Out-of-state resident
-Married
-Loan will be co-signed -->
 			<label for="loanLength">Special Conditions:</label><br>
 			<input type="checkbox" name="condition1" value="downPayment"> I have a down payment<br>
 			<input type="checkbox" name="condition2" value="outOfState"> I am an out-of-state resident<br>
@@ -73,28 +74,27 @@ Loan will be co-signed -->
 			<input type="checkbox" name="condition4" value="coSigner"> This loan will have a co-signer<br>
 			<br>
 
-			<!-- Additional comments - text area -->
+			<!-- Additional comments, email, telephone, LinkedIn URL  -->
+
 			<label for="additionalComments">Additional Comments:</label><br>
 			<textarea name="additionalComments"  id="additionalComments" rows="5" cols="30"></textarea>
 			<br>
 			<br>
 
-			<!-- Email address -->
 			<label for="email">Email Address:</label><br>
 			<input type="email" name="email"  id="email">
 			<br>
 
-			<!-- tel -->
 			<label for="telephone">Telephone:</label><br>
 			<input type="tel" name="telephone"  id="telephone">
 			<br>
 
-			<!-- linkedin url -->
-			<!-- tel -->
 			<label for="linkedIn">LinkedIn URL:</label><br>
 			<input type="url" name="linkedIn"  id="linkedIn">
 			<br>
 
+			<!-- Submit button -->
+			
 			<br>
 			<input type="submit" value="Submit">
 			<br>
