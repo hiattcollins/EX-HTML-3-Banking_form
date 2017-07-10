@@ -14,26 +14,90 @@
 			<label for="firstName">First Name:</label><br>
 			<input type="text" name="firstName"  id="firstName">
 			<br>
+
 			<label for="middleInitial">Middle Initial:</label><br>
 			<input type="text" name="middleInitial" id="middleInitial">
 			<br>
+
 			<label for="lastName">Last Name:</label><br>
 			<input type="text" name="lastName"  id="lastName">
 			<br>
+
 			<label for="address">Address:</label><br>
 			<textarea name="address"  id="address" rows="5" cols="30"></textarea>
 			<br>
+			<br>
+
 			<label for="occupation">Occupation:</label><br>
 			<input type="text" name="occupation"  id="occupation">
 			<br>
+
 			<label for="employer">Employer:</label><br>
 			<input type="text" name="employer"  id="employer">
 			<br>
+
 			<label for="employerAddress">Employer Address:</label><br>
 			<textarea name="employerAddress"  id="employerAddress" rows="5" cols="30"></textarea>
 			<br>
+			<br>
 
+			<label for="typeOfLoan">Type of Loan:</label><br>
+			<select name="typeOfLoan" id="typeOfLoan">
+			  <option value="commercial">Commercial</option>
+			  <option value="realEstate">Real Estate</option>
+			  <option value="personal">Personal</option>
+			  <option value="mortgage">Mortgage</option>
+			</select><br>
 
+			<label for="amtOfLoan">Amount of Loan Requested:</label><br>
+			<input type="number" name="amtOfLoan"  id="amtOfLoan">
+			<br>
+			<br>
+
+			<!-- Loan length - radio button -->
+			<label for="loanLength">Length of Loan:</label><br>
+			<input type="radio" name="loanLength" value="5years" checked> 5 Years<br>
+			<input type="radio" name="loanLength" value="15years"> 15 Years<br>
+			<input type="radio" name="loanLength" value="30years"> 30 Years<br>
+			<br>
+
+			<!-- Special conditions -checkbox
+			I have a down payment
+Out-of-state resident
+Married
+Loan will be co-signed -->
+			<label for="loanLength">Special Conditions:</label><br>
+			<input type="checkbox" name="condition1" value="downPayment"> I have a down payment<br>
+			<input type="checkbox" name="condition2" value="outOfState"> I am an out-of-state resident<br>
+			<input type="checkbox" name="condition3" value="married"> I am married<br>
+			<input type="checkbox" name="condition4" value="coSigner"> This loan will have a co-signer<br>
+			<br>
+
+			<!-- Additional comments - text area -->
+			<label for="additionalComments">Additional Comments:</label><br>
+			<textarea name="additionalComments"  id="additionalComments" rows="5" cols="30"></textarea>
+			<br>
+			<br>
+
+			<!-- Email address -->
+			<label for="email">Email Address:</label><br>
+			<input type="email" name="email"  id="email">
+			<br>
+
+			<!-- tel -->
+			<label for="telephone">Telephone:</label><br>
+			<input type="tel" name="telephone"  id="telephone">
+			<br>
+
+			<!-- linkedin url -->
+			<!-- tel -->
+			<label for="linkedIn">LinkedIn URL:</label><br>
+			<input type="url" name="linkedIn"  id="linkedIn">
+			<br>
+
+			<br>
+			<input type="submit" value="Submit">
+			<br>
 
 		</form>
 
